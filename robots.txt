@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://terminal-demo.github.io/sitemap.xml

@@ -1,0 +1,60 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Demo Site of Terminal-Pub",
+    "description": "",
+    "home_page_url": "https://terminal-demo.github.io",
+    "feed_url": "https://terminal-demo.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Demo Author"
+    },
+    "items": [
+        {
+            "id": "https://terminal-demo.github.io/typography-and-rhythm.html",
+            "url": "https://terminal-demo.github.io/typography-and-rhythm.html",
+            "title": "Typography and rhythm",
+            "summary": "Terminal-Pub keeps the original Terminal type scale and just tightens the vertical spacing. Here is how the common elements look. Body text sits on a&hellip;",
+            "content_html": "<p>Terminal-Pub keeps the original <code>Terminal</code> type scale and just tightens the vertical spacing. Here is how the common elements look.</p><h2>A second-level heading</h2><p>Body text sits on a baseline grid. Links use the accent colour, <strong>bold</strong> uses the bold weight, and <em>italic</em> uses the italic face when the font ships one.</p><h3>A third-level heading</h3><blockquote><p>A blockquote is bordered top and bottom, with a <code>&gt;</code> marker in the accent colour.</p></blockquote><ul><li>Unordered items get an accent dash</li><li>Nesting works<ul><li>like this</li></ul></li></ul><ol><li>Ordered items are counted</li><li>in the margin</li></ol><p>Inline <code>code</code> and a block:</p><pre><code>function hello(name) {\n  return `Hi, ${name}`;\n}</code></pre><table><thead><tr><th>Option</th><th>Default</th></tr></thead><tbody><tr><td>Accent</td><td>Golden</td></tr><tr><td>Scheme</td><td>Dark</td></tr></tbody></table>",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "Typography",
+                   "Tag 1"
+            ],
+            "date_published": "2026-08-31T14:05:12+03:00",
+            "date_modified": "2026-08-31T14:05:12+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/a-bilingual-post.html",
+            "url": "https://terminal-demo.github.io/a-bilingual-post.html",
+            "title": "A bilingual post",
+            "summary": "This post carries the same content in two languages. Click a tab to switch; the choice is remembered on other bilingual pages. The bilingual tabs&hellip;",
+            "content_html": "<p>This post carries the same content in two languages. Click a tab to switch; the choice is remembered on other bilingual pages.</p><div class=\"lang-tabs\"><button class=\"lang-btn\" data-lang=\"en\">English</button><button class=\"lang-btn\" data-lang=\"tr\">Türkçe</button></div><div id=\"lang-en\" class=\"lang-content active\"><h2>English</h2><p>The bilingual tabs are pure markup plus one small script that ships with the theme. No plugin, no build step.</p></div><div id=\"lang-tr\" class=\"lang-content\"><h2>Türkçe</h2><p>İki dilli sekmeler sadece işaretleme artı temayla gelen küçük bir betikten ibaret. Eklenti yok, derleme adımı yok.</p></div><p>See the theme README for the exact markup.</p>",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "Tag 2",
+                   "Guide"
+            ],
+            "date_published": "2026-08-29T14:05:12+03:00",
+            "date_modified": "2026-08-29T14:05:12+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/a-short-note.html",
+            "url": "https://terminal-demo.github.io/a-short-note.html",
+            "title": "A short note",
+            "summary": "Some posts are just a paragraph. The listing shows a trimmed excerpt and a Read more link, and the spacing stays tidy with only one&hellip;",
+            "content_html": "<p>Some posts are just a paragraph. The listing shows a trimmed excerpt and a <em>Read more</em> link, and the spacing stays tidy with only one line of text.</p>",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "Tag 1"
+            ],
+            "date_published": "2026-08-25T14:05:12+03:00",
+            "date_modified": "2026-08-25T14:05:12+03:00"
+        }
+    ]
+}

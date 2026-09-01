@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://terminal-demo.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://terminal-demo.github.io/</loc>
+</url>
+<url>
+<loc>https://terminal-demo.github.io/a-bilingual-post.html</loc>
+<lastmod>2026-08-29T14:05:12+03:00</lastmod>
+</url>
+<url>
+<loc>https://terminal-demo.github.io/a-short-note.html</loc>
+<lastmod>2026-08-25T14:05:12+03:00</lastmod>
+</url>
+<url>
+<loc>https://terminal-demo.github.io/about.html</loc>
+<lastmod>2026-09-01T14:05:12+03:00</lastmod>
+</url>
+<url>
+<loc>https://terminal-demo.github.io/typography-and-rhythm.html</loc>
+<lastmod>2026-08-31T14:05:12+03:00</lastmod>
+</url>
+</urlset>
