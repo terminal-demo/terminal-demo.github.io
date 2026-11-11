@@ -1018,6 +1018,11 @@ input[type=radio] {
   display: inline-block;
   margin-right: calc(var(--baseline) * 2);
 }
+/* Word count follows the date as "2026.09.14 · 1200 words"; the other meta
+   items keep Terminal's "::" separator. */
+.post__meta > .post__words:not(:first-child)::before {
+  content: "·";
+}
 .post__title {
   border-bottom: 3px dotted hsla(var(--accent), var(--alpha, 1));
   color: hsla(var(--accent), var(--alpha, 1));
@@ -1686,6 +1691,9 @@ html { overflow-y: scroll; scrollbar-gutter: stable; }
 /* Flatter dropdown submenu, slimmer featured-image frame */
 .navbar .navbar__submenu { box-shadow: none; border-width: 1px; }
 .post__cover { padding: calc(var(--baseline) * 1); border-width: 5px; }
+/* Theme option featuredImagePlain: featured image without frame, edge to edge,
+   spaced like an image at the top of the post text (16px above, 40px below) */
+.post__cover--plain { border: 0; padding: 0; margin-top: calc(var(--baseline) * 4); }
 
 /* Footer RSS link (config: feedLink), inline after the copyright. The
    separator dot lives on the wrapper span, so only "RSS" is the link. */
@@ -1709,6 +1717,29 @@ a:focus-visible,
 button:focus-visible, a.btn:focus-visible {
   outline: 1px solid hsla(var(--accent), 1);
   outline-offset: 2px;
+}
+
+/* Accessibility: "Skip to content" link (WCAG 2.4.1). It is the first Tab
+   stop on every page and jumps past the logo and navbar straight to
+   <main id="main">. Off-screen until it receives keyboard focus, so the
+   page looks exactly the same for mouse users. <main> gets tabindex="-1"
+   so browsers and screen readers really move focus there; it is not an
+   interactive element, so it needs no focus ring of its own. */
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: var(--page-margin);
+  z-index: 100;
+  padding: calc(var(--baseline) * 2) calc(var(--baseline) * 4);
+  background: hsla(var(--accent), 1);
+  color: hsla(var(--background), 1);
+  transform: translateY(-200%);
+}
+.skip-link:focus {
+  transform: none;
+}
+main:focus {
+  outline: none;
 }
 
 /* Accessibility: keyboard can't open navbar submenus. Terminal's dropdown

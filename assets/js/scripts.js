@@ -142,7 +142,6 @@
                 submenuParents[i].addEventListener('mouseleave', function () {
                     var submenu = this.querySelector(config.submenuSelector);
                     submenu.removeAttribute('style');
-                    submenu.setAttribute('aria-hidden', true);
                 });
             }
         }
