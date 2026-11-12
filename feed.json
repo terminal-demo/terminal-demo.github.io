@@ -10,6 +10,184 @@
     },
     "items": [
         {
+            "id": "https://terminal-demo.github.io/layout-modes/",
+            "url": "https://terminal-demo.github.io/layout-modes/",
+            "title": "Layout modes",
+            "summary": "Terminal-Pub can list your posts in four ways. Pick one for the whole site under Theme settings &rarr; Layout &rarr; Layout mode, or give a&hellip;",
+            "content_html": "<p>Terminal-Pub can list your posts in four ways. Pick one for the whole site under <em>Theme settings &rarr; Layout &rarr; Layout mode</em>, or give a single tag its own layout with <em>Tag &rarr; Other options &rarr; Custom template</em>. The <strong>View</strong> menu above shows this site&rsquo;s posts in each of them.</p><ul><li><strong>Full</strong>: Terminal&rsquo;s classic look. Title, details, the featured image at full width (at most 16:9 high) and the excerpt. <a href=\"https://terminal-demo.github.io/tags/full/\">See the Full view</a>.</li><li><strong>Half</strong>: image on the left; title, details and a four-line excerpt on the right. No featured image? The first image in the post is used. <a href=\"https://terminal-demo.github.io/tags/half/\">See the Half view</a>.</li><li><strong>Compact</strong>: text only. Date, word count and tags on one line, a large title and a three-line excerpt. <a href=\"https://terminal-demo.github.io/tags/compact/\">See the Compact view</a>.</li><li><strong>List</strong>: the date on the left, the title with its tags and word count on the right, all one size. Made for archives. <a href=\"https://terminal-demo.github.io/tags/list/\">See the List view</a>.</li></ul><p>Related settings: <em>Frame around images</em> (Full and Half), <em>List: text size</em> (List) and <em>Corner radius</em> (every image). The posts below use images of different shapes, so you can see how each layout handles a portrait, a panorama, an icon-size picture and a post whose only image sits in the text.</p>",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "List",
+                   "Half",
+                   "Guide",
+                   "Full",
+                   "Compact"
+            ],
+            "date_published": "2026-11-12T08:07:32+03:00",
+            "date_modified": "2026-11-12T08:07:32+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/a-quiet-morning-in-the-terminal/",
+            "url": "https://terminal-demo.github.io/a-quiet-morning-in-the-terminal/",
+            "title": "A quiet morning in the terminal",
+            "summary": "The kettle is on, the editor is open and the cursor blinks where yesterday ended. A plain text file, a short list of things to&hellip;",
+            "content_html": "<p>The kettle is on, the editor is open and the cursor blinks where yesterday ended. A plain text file, a short list of things to try and nothing else on the screen: that is the whole plan for the morning.</p><p>This post has a standard 16:9 featured image, the shape most cameras and screenshots give you. In every layout it fills its space without being cropped.</p>",
+            "image": "https://terminal-demo.github.io/media/posts/15/a-quiet-morning-in-the-terminal.jpg",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "List",
+                   "Half",
+                   "Guide",
+                   "Full",
+                   "Compact"
+            ],
+            "date_published": "2026-11-12T08:06:32+03:00",
+            "date_modified": "2026-11-12T08:06:32+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/notes-on-spacing/",
+            "url": "https://terminal-demo.github.io/notes-on-spacing/",
+            "title": "Notes on spacing",
+            "summary": "Most of a page is empty space, and the empty space decides how the rest reads. Terminal-Pub keeps the original type scale and only tightens&hellip;",
+            "content_html": "<p>Most of a page is empty space, and the empty space decides how the rest reads. Terminal-Pub keeps the original type scale and only tightens the gaps between blocks, so a list of posts reads as one column rather than a pile of cards.</p><p>Switch the layout mode and watch how the same spacing holds in Half, Compact and List.</p>",
+            "image": "https://terminal-demo.github.io/media/posts/16/notes-on-spacing.jpg",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "List",
+                   "Half",
+                   "Guide",
+                   "Full",
+                   "Compact"
+            ],
+            "date_published": "2026-11-12T08:05:32+03:00",
+            "date_modified": "2026-11-12T08:05:32+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/colour-schemes-in-practice/",
+            "url": "https://terminal-demo.github.io/colour-schemes-in-practice/",
+            "title": "Colour schemes in practice",
+            "summary": "Pick an accent, then Dark, Light or Custom. The background on Dark is mixed from the accent, the way Hugo Terminal does it, so every&hellip;",
+            "content_html": "<p>Pick an accent, then Dark, Light or Custom. The background on Dark is mixed from the accent, the way Hugo Terminal does it, so every accent gets its own slightly tinted night.</p><p>Readable small text is one switch away if you prefer every detail at full contrast.</p>",
+            "image": "https://terminal-demo.github.io/media/posts/17/colour-schemes-in-practice.jpg",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "List",
+                   "Half",
+                   "Guide",
+                   "Full",
+                   "Compact"
+            ],
+            "date_published": "2026-11-12T08:04:32+03:00",
+            "date_modified": "2026-11-12T08:04:32+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/writing-in-two-languages/",
+            "url": "https://terminal-demo.github.io/writing-in-two-languages/",
+            "title": "Writing in two languages",
+            "summary": "Bilingual posts keep both languages in one page, behind two tabs. The word count counts one of them, the reader picks the other with a&hellip;",
+            "content_html": "<p>Bilingual posts keep both languages in one page, behind two tabs. The word count counts one of them, the reader picks the other with a click, and the choice is remembered on the next post.</p><p>Tabs follow the WAI-ARIA pattern, so screen readers announce them properly.</p>",
+            "image": "https://terminal-demo.github.io/media/posts/18/writing-in-two-languages.jpg",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "List",
+                   "Half",
+                   "Guide",
+                   "Full",
+                   "Compact"
+            ],
+            "date_published": "2026-11-12T08:03:32+03:00",
+            "date_modified": "2026-11-12T08:03:32+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/edge-case-a-portrait-image/",
+            "url": "https://terminal-demo.github.io/edge-case-a-portrait-image/",
+            "title": "Edge case: a portrait image",
+            "summary": "A tall image. Full shows it at most 16:9 high and trims the top and bottom; Half fills its column at the height of the&hellip;",
+            "content_html": "<p>A tall image. Full shows it at most 16:9 high and trims the top and bottom; Half fills its column at the height of the text and crops the rest. The picture is never stretched.</p>",
+            "image": "https://terminal-demo.github.io/media/posts/19/edge-case-a-portrait-image.jpg",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "List",
+                   "Half",
+                   "Guide",
+                   "Full",
+                   "Compact"
+            ],
+            "date_published": "2026-11-12T08:02:32+03:00",
+            "date_modified": "2026-11-12T08:02:32+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/edge-case-a-panorama/",
+            "url": "https://terminal-demo.github.io/edge-case-a-panorama/",
+            "title": "Edge case: a panorama",
+            "summary": "A wide, low image. Full keeps its shape at full width; Half crops the sides so it still fills the space next to the title.",
+            "content_html": "<p>A wide, low image. Full keeps its shape at full width; Half crops the sides so it still fills the space next to the title.</p>",
+            "image": "https://terminal-demo.github.io/media/posts/20/edge-case-a-panorama.jpg",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "List",
+                   "Half",
+                   "Guide",
+                   "Full",
+                   "Compact"
+            ],
+            "date_published": "2026-11-12T08:01:32+03:00",
+            "date_modified": "2026-11-12T08:01:32+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/edge-case-an-icon-size-image/",
+            "url": "https://terminal-demo.github.io/edge-case-an-icon-size-image/",
+            "title": "Edge case: an icon-size image",
+            "summary": "A 64 pixel image, the size of an icon. Enlarged it would turn blurry, so both Full and Half keep it at its own size&hellip;",
+            "content_html": "<p>A 64 pixel image, the size of an icon. Enlarged it would turn blurry, so both Full and Half keep it at its own size and centre it.</p>",
+            "image": "https://terminal-demo.github.io/media/posts/21/edge-case-an-icon-size-image.jpg",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "List",
+                   "Half",
+                   "Guide",
+                   "Full",
+                   "Compact"
+            ],
+            "date_published": "2026-11-12T08:00:32+03:00",
+            "date_modified": "2026-11-12T08:00:32+03:00"
+        },
+        {
+            "id": "https://terminal-demo.github.io/edge-case-an-image-only-in-the-text/",
+            "url": "https://terminal-demo.github.io/edge-case-an-image-only-in-the-text/",
+            "title": "Edge case: an image only in the text",
+            "summary": "This post has no featured image. Its only picture sits in the text below, and Half uses that one instead, so the list still has&hellip;",
+            "content_html": "<p>This post has no featured image. Its only picture sits in the text below, and Half uses that one instead, so the list still has an image on the left.</p><figure class=\"post__image\"><img loading=\"lazy\" src=\"https://terminal-demo.github.io/media/posts/22/inline-1200x800.jpg\" alt=\"\" width=\"1200\" height=\"800\" sizes=\"(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)\" srcset=\"https://terminal-demo.github.io/media/posts/22/responsive/inline-1200x800-xs.jpg 300w ,https://terminal-demo.github.io/media/posts/22/responsive/inline-1200x800-sm.jpg 480w ,https://terminal-demo.github.io/media/posts/22/responsive/inline-1200x800-md.jpg 768w ,https://terminal-demo.github.io/media/posts/22/responsive/inline-1200x800-lg.jpg 1024w\"></figure><p>The image above is the first one in the post.</p>",
+            "author": {
+                "name": "Demo Author"
+            },
+            "tags": [
+                   "List",
+                   "Half",
+                   "Guide",
+                   "Full",
+                   "Compact"
+            ],
+            "date_published": "2026-11-12T07:59:32+03:00",
+            "date_modified": "2026-11-12T07:59:32+03:00"
+        },
+        {
             "id": "https://terminal-demo.github.io/typography-and-rhythm/",
             "url": "https://terminal-demo.github.io/typography-and-rhythm/",
             "title": "Typography and rhythm",
@@ -20,41 +198,14 @@
             },
             "tags": [
                    "Typography",
-                   "Tag 1"
+                   "Tag 1",
+                   "List",
+                   "Half",
+                   "Full",
+                   "Compact"
             ],
             "date_published": "2026-08-31T14:05:12+03:00",
             "date_modified": "2026-08-31T14:05:12+03:00"
-        },
-        {
-            "id": "https://terminal-demo.github.io/a-bilingual-post/",
-            "url": "https://terminal-demo.github.io/a-bilingual-post/",
-            "title": "A bilingual post",
-            "summary": "This post carries the same content in two languages. Click a tab to switch; the choice is remembered on other bilingual pages. The bilingual tabs&hellip;",
-            "content_html": "<p>This post carries the same content in two languages. Click a tab to switch; the choice is remembered on other bilingual pages.</p><div class=\"lang-tabs\"><button class=\"lang-btn\" data-lang=\"en\">English</button><button class=\"lang-btn\" data-lang=\"tr\">Türkçe</button></div><div id=\"lang-en\" class=\"lang-content active\"><h2>English</h2><p>The bilingual tabs are pure markup plus one small script that ships with the theme. No plugin, no build step.</p></div><div id=\"lang-tr\" class=\"lang-content\"><h2>Türkçe</h2><p>İki dilli sekmeler sadece işaretleme artı temayla gelen küçük bir betikten ibaret. Eklenti yok, derleme adımı yok.</p></div><p>See the theme README for the exact markup.</p>",
-            "author": {
-                "name": "Demo Author"
-            },
-            "tags": [
-                   "Tag 2",
-                   "Guide"
-            ],
-            "date_published": "2026-08-29T14:05:12+03:00",
-            "date_modified": "2026-08-29T14:05:12+03:00"
-        },
-        {
-            "id": "https://terminal-demo.github.io/a-short-note/",
-            "url": "https://terminal-demo.github.io/a-short-note/",
-            "title": "A short note",
-            "summary": "Some posts are just a paragraph. The listing shows a trimmed excerpt and a Read more link, and the spacing stays tidy with only one&hellip;",
-            "content_html": "<p>Some posts are just a paragraph. The listing shows a trimmed excerpt and a <em>Read more</em> link, and the spacing stays tidy with only one line of text.</p>",
-            "author": {
-                "name": "Demo Author"
-            },
-            "tags": [
-                   "Tag 1"
-            ],
-            "date_published": "2026-08-25T14:05:12+03:00",
-            "date_modified": "2026-08-25T14:05:12+03:00"
         }
     ]
 }
